@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:BTS7960B IC?
+U 1 1 60F40810
+P 3400 2700
+F 0 "IC?" H 4000 2965 50  0000 C CNN
+F 1 "BTS7960B" H 4000 2874 50  0000 C CNN
+F 2 "BTS7960B" H 4450 2800 50  0001 L CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/RSEL/RSELS14945/RSELS14593-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0" H 4450 2700 50  0001 L CNN
+F 4 "Path resistance of typ. 16 m @ 25 C" H 4450 2600 50  0001 L CNN "Description"
+F 5 "4.4" H 4450 2500 50  0001 L CNN "Height"
+F 6 "Rochester Electronics" H 4450 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "BTS7960B" H 4450 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4450 2200 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 4450 2100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4450 2000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4450 1900 50  0001 L CNN "Arrow Price/Stock"
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 60F43843
+P 4050 1900
+F 0 "#PWR?" H 4050 1750 50  0001 C CNN
+F 1 "+24V" H 4065 2073 50  0000 C CNN
+F 2 "" H 4050 1900 50  0001 C CNN
+F 3 "" H 4050 1900 50  0001 C CNN
+	1    4050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small 10k
+U 1 1 60F443BF
+P 2750 2550
+F 0 "10k" H 2809 2596 50  0000 L CNN
+F 1 "R_Small" H 2809 2505 50  0000 L CNN
+F 2 "" H 2750 2550 50  0001 C CNN
+F 3 "~" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small 10k?
+U 1 1 60F44E24
+P 2300 2550
+F 0 "10k?" H 2359 2596 50  0000 L CNN
+F 1 "R_Small" H 2359 2505 50  0000 L CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener_Small D?
+U 1 1 60F455E5
+P 2450 3400
+F 0 "D?" V 2404 3470 50  0000 L CNN
+F 1 "D_Zener_Small" V 2495 3470 50  0000 L CNN
+F 2 "" V 2450 3400 50  0001 C CNN
+F 3 "~" V 2450 3400 50  0001 C CNN
+	1    2450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B250 D?
+U 1 1 60F487AA
+P 4950 3050
+F 0 "D?" H 4950 3267 50  0000 C CNN
+F 1 "B250" H 4950 3176 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 4950 2875 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B250 D?
+U 1 1 60F498ED
+P 5000 3400
+F 0 "D?" H 5000 3617 50  0000 C CNN
+F 1 "B250" H 5000 3526 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 5000 3225 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small 1.0uf_25v
+U 1 1 60F49ECD
+P 1750 2950
+F 0 "1.0uf_25v" H 1842 2996 50  0000 L CNN
+F 1 "C_Small" H 1842 2905 50  0000 L CNN
+F 2 "" H 1750 2950 50  0001 C CNN
+F 3 "~" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
